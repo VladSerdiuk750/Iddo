@@ -19,19 +19,20 @@ header {
     height: 20px;
 }
 nav {
+    position: relative;   
     display: inline-block;
-    position: relative;
-    vertical-align: top;
-    
+    margin-left: 415px;
     
 }
 nav li {   
-    display: inline-block;
     list-style-type: none;
-    margin-left: 415px;
-    vertical-align: middle;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 129px;
 }
 nav li a {
+    display: inline-block;
+    vertical-align: middle;
     text-decoration: none;
     color: #ffffff;
     font: 400 16px ProximaNova;
@@ -51,6 +52,7 @@ footer .copyright {
     padding-left: 698px;
     width: 203px;
     height: 35px;
+    vertical-align: middle;
 }
 footer .footer-logo {
     display: inline-block;
